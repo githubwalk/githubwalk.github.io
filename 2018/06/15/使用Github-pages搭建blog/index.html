@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>JUNK SHENG</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="JUNK SHENG">
+  <title>使用Github_pages搭建blog | JUNK SHENG</title>
+  <meta name="keywords" content=" Hexo , Blog , Github ">
+  <meta name="description" content="使用Github_pages搭建blog | JUNK SHENG">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="使用Github pages + Hexo搭建静态blog前言一直希望搭建一个blog, 写写文章, 记录下心情和技术, 顺便…体验一下以前那一辈玩转blog的感觉.  挑了很久, 发现自己选服务器和域名都是一件比较麻烦的事, 恰好听说GitHub pages可以做静态blog, 于是抱着尝试的态度搞了一下.  教程是使用Hexo框架做的,基于Node.js, 当然, 如果你觉得不喜欢,除了这个还">
 <meta name="keywords" content="Hexo,Blog,Github">
@@ -51,7 +51,7 @@
   <input class="theme_preload_comment" value="false">
 </div>
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/" class="avatar_target">
     <img class="avatar" src="/img/avatar.jpg" />
@@ -167,10 +167,59 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="post-使用Github-pages搭建blog" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#The-main"><span class="toc-text">The main</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#凡事存在-即有理由-凡事议论-即有资本-或是爱恨-或是情仇-你我皆俗子-难逃红尘"><span class="toc-text">凡事存在,即有理由,凡事议论,即有资本,或是爱恨,或是情仇.你我皆俗子,难逃红尘.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于-某个小栈"><span class="toc-text">关于 某个小栈</span></a></li></ol></li></ol>
+        <h1 class="article-title">使用Github_pages搭建blog</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            
+            <a href="javascript:" data-rel="Blog">Blog</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a href="javascript:" class="color5">Hexo</a>
+            
+            <a href="javascript:" class="color5">Blog</a>
+            
+            <a href="javascript:" class="color2">Github</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+        创建时间:<time class="date" title='更新时间: 2018-06-15 22:07:26'>2018-06-15 20:06</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        <span>字数:1,197</span>
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#使用Github-pages-Hexo搭建静态blog"><span class="toc-text">使用Github pages + Hexo搭建静态blog</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#准备"><span class="toc-text">准备</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Node-js"><span class="toc-text">安装 Node.js</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Git或者Cmder"><span class="toc-text">安装 Git或者Cmder</span></a></li></ol></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -183,21 +232,97 @@
     }
 </style>
 </div>
-            <h1 id="The-main"><a href="#The-main" class="headerlink" title="The main"></a>The main</h1><h2 id="凡事存在-即有理由-凡事议论-即有资本-或是爱恨-或是情仇-你我皆俗子-难逃红尘"><a href="#凡事存在-即有理由-凡事议论-即有资本-或是爱恨-或是情仇-你我皆俗子-难逃红尘" class="headerlink" title="凡事存在,即有理由,凡事议论,即有资本,或是爱恨,或是情仇.你我皆俗子,难逃红尘."></a>凡事存在,即有理由,凡事议论,即有资本,或是爱恨,或是情仇.你我皆俗子,难逃红尘.</h2><p>说太多骚话, 实在不像是一个敲代码的, 还好还好, 我的代码写的乱七八糟. 总的来说, 这个blog既是谋划已久的, 也是偶然做成的, 大概这就是缘分. </p>
-<p>blog的内容估计会很随缘, 可能是一些有趣的代码, 一些出去看看外面网络世界的福利, 一些莫名的随笔, 总的来说能看到这里的人就是一种缘分, 你我之间的缘分, 我会珍惜. </p>
-<p>还有哇还有哇, 如果你有什么烦心事或者什么问题可以发邮件给我吐槽哦, 虽然我的技术也不是很好, 但希望一起学习. </p>
-<h2 id="关于-某个小栈"><a href="#关于-某个小栈" class="headerlink" title="关于 某个小栈"></a>关于 <strong>某个小栈</strong></h2><p><strong>某个小栈</strong> 是Junk Sheng用GitHub搭的一个小web, 如果感兴趣你也可以玩玩的哟! :)喵~</p>
-<p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
-<p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
-<p><strong>谢谢支持!</strong></p>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="使用Github-pages-Hexo搭建静态blog"><a href="#使用Github-pages-Hexo搭建静态blog" class="headerlink" title="使用Github pages + Hexo搭建静态blog"></a>使用Github pages + Hexo搭建静态blog</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直希望搭建一个blog, 写写文章, 记录下心情和技术, 顺便…体验一下以前那一辈玩转blog的感觉. </p>
+<p>挑了很久, 发现自己选服务器和域名都是一件比较麻烦的事, 恰好听说GitHub pages可以做静态blog, 于是抱着尝试的态度搞了一下. </p>
+<p>教程是使用Hexo框架做的,基于Node.js, 当然, 如果你觉得不喜欢,除了这个还有其他框架, 有些基于python或者ruby的, 网上有很多教程, 大家可以搜搜看. </p>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><p>因为hexo是基于Node.js开发的, 所以安装Node.js这一步骤必不可少.</p>
+<p>Node.js的安装方法很简单, 打开Node.js官网, 选择对应版本下载安装, 选好路径一路Next即可. </p>
+<p>安装完毕后在cmd命令行中输入一下命令:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure></p>
+<p>如果返回对应版本信息号即成功. </p>
+<h3 id="安装-Git或者Cmder"><a href="#安装-Git或者Cmder" class="headerlink" title="安装 Git或者Cmder"></a>安装 Git或者Cmder</h3><p>因为是在Github上搭建blog, 所以Git命令行必不可少, 当然, 也可以下载Cmder, 它自带Git, 同时界面美观, 还支持在Windows下使用部分Linux命令, 被誉为Windows下替代cmd的最好工具. </p>
+<p>下载Git: <a href="https://git-scm.com" target="_blank" rel="noopener">https://git-scm.com</a><br>下载Cmder: <a href="http://cmder.net" target="_blank" rel="noopener">http://cmder.net</a></p>
+<p>##安装Hexo</p>
+<p>打开Git或者Cmder, 输入一下命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ hexo -v</span><br></pre></td></tr></table></figure></p>
+<p>如果没问题, 返回版本信息正确那么意味着本地配置成功</p>
+<p>##Github上</p>
+<p>如果没有Github, 请在Github官网上注册一个账号哦. 写到这里我就默认你已经有Github账号了. </p>
+<p>###创建一个Github仓库</p>
+<p>登陆Github后点击”+”号, 选择New repository, 在 name那里填一下内容!!! </p>
+<p><strong>注意:</strong> 仔细看(username处填写你的Github用户名, 不能乱填, 乱填不生效.)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">username.github.io</span><br></pre></td></tr></table></figure></p>
+<p>创建完成后ok, 接下在继续设置一些东西. </p>
+<p>###将ssh公钥上传</p>
+<p>因为git管理都是通过ssh连接仓库的, hexo的配置文件也是, 所以需要我们配置下ssh.</p>
+<ol>
+<li>首先检查你电脑是否已经有 SSH key</li>
+</ol>
+<p>打开”此电脑 - 系统盘 - 用户(users) - 自己账号文件夹 - .ssh文件夹”, 查看是否存在 id_rsa(私钥)和id_rsa.pub(公钥)文件, 如果有, 则跳过第二步.</p>
+<ol start="2">
+<li>创建一个SSH key</li>
+</ol>
+<p>打开cmd或者Git bash, 输入:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"your_email@example.com"</span></span><br></pre></td></tr></table></figure></p>
+<p>回车, 提示你输入一个文件名, 推荐使用默认, 然后是输入连接密码, 推荐无, 全部直接按回车, 这样push的时候就不需要输入密码, 直接提交到Github上了. </p>
+<ol start="3">
+<li>添加你的SSH key 到 Github上面去</li>
+</ol>
+<p>首先拷贝 id_rsa.pub 文件的<strong>全部内容</strong></p>
+<p>登陆Github, 在右上角的( Account Settings) 进去, 点击菜单栏的SSH key 添加 SSH key. 复制你拷贝的代码到输入框中, 名字随意. </p>
+<p>##配置Hexo</p>
+<p>###安装hexo</p>
+<p>利用npm命令安装hexo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure>
+<p>###创建blog项目文件夹</p>
+<p>在你喜欢的地方, 创建一个名字为”username.github.io”的文件夹(同理username为你的GitHub用户名)</p>
+<p><strong>注意:</strong> 接下来的命令都要在该文件夹目录下使用, 请提前进入. </p>
+<p>在username.github.io目录下输入</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br><span class="line">$ npm install</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p>第一句初始化<br>第二句安装依赖包<br>第三句确保git部署</p>
+<p>###本地查看<br>现在搭好了默认的blog了, 可以在本地先查看, 输入一下命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>每次对username.github.io的文件改动后都要敲一次 hexo g, 更新一下改动的web</p>
+<p>hexo s是启动本地服务器的意思, 输入后回车, 在浏览器输入localhost:4000, 就可以看到你的blog页面了. 浏览完毕按 CTRL+C 结束. </p>
+<p>###更换主题</p>
+<p>可以在你hexo官网上找你喜欢的主题, 也可以在知乎上找 <a href="https://www.zhihu.com/question/24422335/answer/46357100" target="_blank" rel="noopener">https://www.zhihu.com/question/24422335/answer/46357100</a></p>
+<p>我选中的是3-hexo<br>使用git命令clone主题项目</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/yelog/hexo-theme-3-hexo.git themes/3-hexo</span><br></pre></td></tr></table></figure>
+<p>耐心等待下载完毕, 你会发现themes文件夹下多了一个你下载的主题文件夹. </p>
+<p>###修改配置文件<br>.io 文件夹内打开 <strong>_config.yml</strong>, 可以用记事本打开, 我喜欢用sublime. </p>
+<p>把里面的theme: landscape 的landscape改成你下载的主题名字, 如theme: 3-hexo</p>
+<p>修改一下东西<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repository: <span class="string">"https://"</span>+<span class="string">"github用户名"</span>+<span class="string">":"</span>+<span class="string">"github密码"</span>+<span class="string">"@github.com:"</span>+<span class="string">"github用户名"</span>+<span class="string">"/"</span>+<span class="string">"github用户名"</span>+<span class="string">".github.io.git"</span>  //你的项目地址, 去掉双引号.</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
+<p> ###上传项目到Github上</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo d //上传项目</span><br></pre></td></tr></table></figure>
+<p> ##见证奇迹</p>
+<p>打开浏览器 输入 username.github.io 看一看奇迹吧. </p>
 
-        </article>
-        
-        <p>
-            <a href="javascript:void(0)" class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 junk.sheng@foxmail.com </span>
+    </div>
+</article>
+
+
+<p>
+    <a href="javascript:void(0)" class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+<div class="article_copyright">
+    <p><span>文章标题:</span>使用Github_pages搭建blog</p>
+    <p><span>文章字数:</span><span class="post-count">1,197</span></p>
+    <p><span>本文作者:</span><a href="javascript:void(0)" title="Junk Sheng">Junk Sheng</a></p>
+    <p><span>发布时间:</span>2018-06-15, 20:06:37</p>
+    <p><span>最后更新:</span>2018-06-15, 22:07:26</p>
+    <span>原始链接:</span><a class="post-url" href="/2018/06/15/使用Github-pages搭建blog/" title="使用Github_pages搭建blog">http://yoursite.com/2018/06/15/使用Github-pages搭建blog/</a>
+    <p>
+        <span>版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+    </p>
+</div>
+
+
+
+
+    
+
     </div>
     <div class="copyright">
         <p class="footer-entry">©2018  Junk Sheng</p>
